@@ -18,28 +18,39 @@ Structured incident tracking
 This transforms deepfake detection from a simple prediction task into a complete forensic workflow.
 
 🎯 Key Features
+
 🔍 Multi-Modal Detection
+
 Supports Images, Videos, and Audio
 Unified AI pipeline using multimodal inference
+
 🧠 AI-Powered Forensics
+
 Biological Consistency Analysis (facial behavior, micro-expressions)
 Signal Processing (GAN artifacts, noise patterns)
 Temporal Logic (frame inconsistencies in video)
 Semantic Authenticity (real-world coherence)
+
 📊 Incident Intelligence Dashboard
+
 Real-time logging of detection results
 Severity classification: LOW / MEDIUM / HIGH / CRITICAL
 Historical tracking and forensic audit trail
+
 📈 Advanced Classification
+
 4-class output:
 Genuine
 Deepfake
 AI-Generated
 Hybrid
+
 ⚡ Real-Time Performance
+
 ~91.2% accuracy (images)
 Sub-3 second inference latency
 Structured and searchable logs
+
 🏗️ System Architecture
 
 Project Aegis follows a modular single-page architecture with six major components:
@@ -56,7 +67,9 @@ The system runs as a zero-backend architecture:
 Client-side processing
 AI inference via API
 Local storage for incident logs
+
 ⚙️ Tech Stack
+
 Frontend
 React 19 (TypeScript)
 Vite 6
@@ -72,7 +85,9 @@ Lucide Icons
 Backend (Optional / Hybrid)
 Flask
 SQLite / localStorage
+
 🔄 Workflow
+
 User uploads media (image/video/audio)
 Preprocessing (normalization, frame extraction)
 AI inference using Gemini
@@ -84,11 +99,13 @@ Incident logged & displayed on dashboard
 This ensures end-to-end forensic traceability, not just detection.
 
 📊 Performance
+
 Metric	Image	Video	Audio
 Accuracy	91.2%	87.4%	78.6%
 Precision	89.8%	85.1%	76.3%
 Recall	92.5%	88.9%	80.2%
 Latency	<2.8s	<6.5s	<4.1s
+
 🧩 Problem It Solves
 
 Traditional deepfake detection systems:
@@ -104,19 +121,25 @@ Operational intelligence + detection
 Multi-modal analysis
 Forensic explainability
 Real-time monitoring
+
 ⚠️ Limitations
+
 Limited storage (localStorage cap)
 Requires internet (AI API dependency)
 Audio detection less mature
 No live-stream detection (yet)
+
 🔮 Future Improvements
+
 Cloud database integration (Firebase / Supabase)
 Real-time video stream detection
 Offline ONNX model support
 Enhanced audio deepfake detection
 Secure backend proxy for API keys
 Blockchain-based audit logging
+
 🧑‍💻 Team
+
 Mohammed Zakie Sayyed
 Mohammed Hashim
 Mohammed Wasil
